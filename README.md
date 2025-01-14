@@ -2,8 +2,9 @@
 
 Erste Umsetzung einer FastAPI App für Sensordaten und Überlegungen zur Umsetzung. Da ich bisher noch keine Erfahrungen mit FastAPI gesammelt habe, fange ich erst einmal mit einer möglichen Umsetzungsidee auf Grundlage des Systems "Django" an. Danach wird diese mit Hilfe von einem Tutorial und verschiedenen Webseiten auf FastAPI übertragen bzw. neu aufgebaut.
 
+Verwendete Test-API von Extern: https://github-wiki-see.page/m/opendata-stuttgart/meta/wiki/APIs ; https://data.sensor.community/static/v1/data.json
+
 ## Aufbautheorie in Django
-==========================
 
 Erste Überlegungen zu einer Umsetzung von einer Sensordatenbank mit Django als Grundlage:
 
@@ -30,7 +31,6 @@ Ausgabe:
 
 
 ## Aufbau und Infomationen in FastAPI
-=====================================
 
 Überlegungen und erste Umsetzung zu einer FastAPI App für das importieren, speichern und ausgeben von Sensordaten. 
 
