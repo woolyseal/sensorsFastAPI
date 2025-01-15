@@ -4,13 +4,12 @@ from datetime import datetime
 
 class Sensor(BaseModel):
     id: int
-    sensor_type: int
     sensor_pin: str
     sensor_type_id: int
     location_id: int
     
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 
 class SensorType(BaseModel):
@@ -19,7 +18,7 @@ class SensorType(BaseModel):
     sensor_manufacturer: str
     
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 
 class Location(BaseModel):
@@ -31,7 +30,7 @@ class Location(BaseModel):
     country: str
     
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 
 class SensorData(BaseModel):
@@ -42,4 +41,16 @@ class SensorData(BaseModel):
     sensor_id: int
     
     class Config:
-        orm_mode = True
+        from_attributes = True
+
+
+class SensorDataResponse(BaseModel):
+    id: int
+    sensor_pin: str
+    sensor_data_id: int
+    measurement: datetime
+    value: float
+    value_type: str
+
+    class Config:
+        from_attributes = True

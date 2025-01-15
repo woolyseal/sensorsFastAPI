@@ -59,6 +59,10 @@ Ausgabe:
 * Nutzung der API in einem gesonderten Frontend z.B. statisch, React, Next oder Einbindung in bestehende Frontend-Lösungen
 * Bereitstellung als API
 
+Testing:
+* Logger - using python logger/
+* https://fastapi.tiangolo.com/tutorial/testing/ - Pytests/Testfunktionen in eigener Datei
+
 Rollout:
 * https://medium.com/@ramanbazhanau/preparing-fastapi-for-production-a-comprehensive-guide-d167e693aa2b
 
